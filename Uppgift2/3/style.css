@@ -1,0 +1,32 @@
+
+body {
+    background-color: rgb(241, 79, 201);
+    font-family: "Poppins", Arial, sans-serif; 
+    color: rgb(77, 18, 116);
+}
+
+h1 {
+    border-bottom: 3px solid rgb(69, 20, 102);
+}
+
+h2 {
+    border-bottom: 3px solid rgb(69, 20, 102);
+}
+
+h3 {
+    border-bottom: 3px solid rgb(69, 20, 102);
+}
+
+
+label {
+    font-weight: bold;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    padding: 10px; 
+}

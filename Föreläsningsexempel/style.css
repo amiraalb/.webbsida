@@ -1,0 +1,41 @@
+/*
+* {
+    border: 2px dashed rgb(203, 123, 136);
+}
+*/
+
+body {
+    background-color: rgb(153, 229, 153);
+}
+
+h1 {
+    border-bottom: 3px solid rgb(44, 118, 24);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.boll {
+    border-radius: 10000px;
+    background-color: rgb(52, 102, 186); 
+    padding: 20px; 
+    width: 30px;
+    height: 30px;
+    transition: all 2s;
+}
+
+.boll:hover {
+    transform: rotateZ(360deg);
+}
